@@ -55,14 +55,15 @@ create table funcionarios (
     
     create table episodios(
     Temporada int,
-    episodios int auto_increment,
+    episodios int,
 	titulos varchar(100),
 	data_lanc date,
     avaliacao int,
     votos int(10),
     duracao int(10),
     diretor varchar(100),
-    primary key(episodios));
+	id int auto_increment not null,
+    primary key(id));
     
 	select * from episodios;
     drop table episodios;
