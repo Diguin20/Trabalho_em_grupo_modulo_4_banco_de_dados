@@ -1,1 +1,1 @@
-# Trabalho_individual_modulo_4_banco_de_dados
+# Trabalho_em_grupo_modulo_4_banco_de_dados
