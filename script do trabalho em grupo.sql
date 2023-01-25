@@ -8,6 +8,7 @@ create table personagens(personagem varchar(100),
      ultima_apr int(10),
      id int auto_increment not null,
      primary key(id));
+     
 
 create table episodios(
     Temporada varchar(10),
@@ -21,10 +22,7 @@ create table episodios(
 	id int auto_increment not null,
     primary key(id));
     
-    select * from episodios;
-    select * from personagens;
     
-	
     select * from personagens order by aparicoes desc limit 5;
     
     select * from episodios where temporada =1 order by  duracao desc limit 1;
