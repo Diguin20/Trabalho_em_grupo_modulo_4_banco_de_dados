@@ -25,16 +25,16 @@ create table episodios(
     
     select * from personagens order by aparicoes desc limit 5;
     
-    select * from episodios where temporada =1 order by  duracao desc limit 1;
-    select * from episodios where temporada =2 order by  duracao desc limit 1;
-    select * from episodios where temporada =3 order by  duracao desc limit 1;
-    select * from episodios where temporada =4 order by  duracao desc limit 1;
-    select * from episodios where temporada =5 order by  duracao desc limit 1;
-    select * from episodios where temporada =6 order by  duracao desc limit 1;
-    select * from episodios where temporada =7 order by  duracao desc limit 1;
-    select * from episodios where temporada =8 order by  duracao desc limit 1;
+    select * from episodios where temporada =1 order by  votos desc limit 1;
+    select * from episodios where temporada =2 order by  votos desc limit 1;
+    select * from episodios where temporada =3 order by  votos desc limit 1;
+    select * from episodios where temporada =4 order by  votos desc limit 1;
+    select * from episodios where temporada =5 order by  votos desc limit 1;
+    select * from episodios where temporada =6 order by  votos desc limit 1;
+    select * from episodios where temporada =7 order by  votos desc limit 1;
+    select * from episodios where temporada =8 order by  votos desc limit 1;
     
-    select * from episodios order by votos desc limit 5;
+    select * from episodios order by duracao desc limit 5;
     
     
     
