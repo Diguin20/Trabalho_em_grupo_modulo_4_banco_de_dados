@@ -25,7 +25,7 @@ create table episodios(
     select * from personagens;
     
 	
-    select * from personagens where aparicoes limit 5;
+    select * from personagens order by aparicoes desc limit 5;
     
     select * from episodios where temporada =1 order by  duracao desc limit 1;
     select * from episodios where temporada =2 order by  duracao desc limit 1;
